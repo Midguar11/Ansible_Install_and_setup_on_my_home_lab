@@ -27,6 +27,7 @@
       exec bash -l
       conda create -n ansible-dev python=3 
       ls miniconda3/envs
+- change user ansible dev: 
       conda activate ansible-dev
       python --version
 
