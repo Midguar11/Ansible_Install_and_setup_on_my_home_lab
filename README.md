@@ -59,7 +59,12 @@
 - completed instaces, connect to
 
       ssh -i ~/.ssh/Ansible ec2-user@54.172.185.67
+      sudo su -
       sudo adduser midguard
+      sudo nano /etc/sudoers
+
+- add last line " midguard ALL=(ALL) NOPASSWD:ALL  "
+
       sudo su - midguard
       mkdir .ssh
       chmod 700 .ssh
