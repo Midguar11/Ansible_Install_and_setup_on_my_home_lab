@@ -31,8 +31,9 @@
 - add ansible-dev to sudoer
       
       visudo
-      
-- user sudoer specification new user" ansible-dev
+
+- user sudoer specification new user" midguard ALL=(ALL) NOPASSWD:ALL "
+ - user sudoer specification new user" ansible-dev ALL=(ALL) NOPASSWD:ALL
 
 - change user ansible dev: 
 
