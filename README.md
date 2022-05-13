@@ -27,7 +27,15 @@
       exec bash -l
       conda create -n ansible-dev python=3 
       ls miniconda3/envs
+
+- add ansible-dev to sudoer
+      
+      visudo
+      
+- user sudoer specification new user" ansible-dev
+
 - change user ansible dev: 
+
       conda activate ansible-dev
       python --version
 
