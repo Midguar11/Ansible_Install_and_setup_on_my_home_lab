@@ -1,0 +1,23 @@
+---
+
+ - hosts: all
+   become: true
+   tasks:
+ 
+   - name: create username user
+     user:
+       name: username
+       groups: root
+ 
+   - name: add ssh key for username
+     authorized_key:
+       user: username
+       key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAe7/ofWLNBq3+fRn3UmgAizdicLs9vcS4Oj8VSOD1S/ ansible" # publick key
+      
+   - name: add sudoers file for username
+     copy:
+       src: sudoer_simone # local dir " username ALL=(ALL) NOPASSWD:ALL ""
+       dest: /etc/sudoers.d/username
+       owner: root
+       group: root
+       mode: 0440
