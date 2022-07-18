@@ -87,6 +87,15 @@
 - exit
 - ssh -i ~/.ssh/Ansible midguard@54.172.185.67
 
+# What we control must be set on all servers:
+
+      sudo -i
+      nano /etc/sudoers.d/username
+      username ALL=(ALL) NOPASSWD:ALL
+      
+  - save and exit root try back root sudo -i, If it doesn't ask for a password. Everything is alright
+
+
 # Install plugin
 
       ansible-galaxy collection install amazon.aws
