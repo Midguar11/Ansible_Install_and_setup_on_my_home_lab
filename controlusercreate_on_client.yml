@@ -12,7 +12,7 @@
    - name: add ssh key for username
      authorized_key:
        user: username
-       key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAe7/ofWLNBq3+fRn3UmgAizdicLs9vcS4Oj8VSOD1S/ ansible" # publick key
+       key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINL+jHGF1lnzaSDee+CQFnN4JeuWCuoNGPnC+4CRNwLW Ansible Control Key" # publick key
       
    - name: add sudoers file for username
      copy:
