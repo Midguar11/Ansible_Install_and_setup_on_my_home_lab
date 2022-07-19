@@ -123,7 +123,9 @@ sudo apt-get install python
   
             nano sudoer_username
             
+  - Start playbook:
   
+            ansible-playbook -K controlusercreate_on_client.yml
             
             
        
