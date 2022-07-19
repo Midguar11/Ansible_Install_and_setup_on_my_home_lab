@@ -103,3 +103,10 @@
 # Install on Hosts
 
 sudo apt-get install python
+
+# Setup Controled Client
+
+- connect to Asnible controll
+
+            git clone git@github.com:Midguar11/Labor_auto_updater.git
+
