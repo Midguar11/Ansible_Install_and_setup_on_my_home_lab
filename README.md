@@ -108,5 +108,5 @@ sudo apt-get install python
 
 - connect to Asnible controll
 
-            git clone git@github.com:Midguar11/Labor_auto_updater.git
+            git clone git@github.com:Midguar11/Ansible_Install_and_setup_on_my_home_lab.git
 
