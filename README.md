@@ -114,9 +114,17 @@ sudo apt-get install python
             nano inventory
             nano hosts
             nano 
+            
  - Edit control. yml add user nad public key
  
             nano controlusercreate_on_client.yml
+            
+  - Edit sudoer user username adding user name:
+  
+            nano sudoer_username
+            
+  
+            
             
        
             
