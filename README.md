@@ -126,6 +126,14 @@ sudo apt-get install python
   - Start playbook:
   
             ansible-playbook -K controlusercreate_on_client.yml
+
+  - try to connect ssh:
+
+            ssh -i ~/.ssh/AnsibleControl username@11.111.11.11
+
+ - If work play mext playbook
+
+           ansible-playbook -K securesetup.yml
             
             
        
