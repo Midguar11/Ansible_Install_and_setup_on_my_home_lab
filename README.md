@@ -113,6 +113,10 @@ sudo apt-get install python
             cd Ansible_Install_and_setup_on_my_home_lab
             nano inventory
             nano hosts
+            nano 
+ - Edit control. yml add user nad public key
+ 
+            nano controlusercreate_on_client.yml
             
        
             
